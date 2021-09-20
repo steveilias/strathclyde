@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ssatm/ontologies/2017/3/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ssatm/ontologies/2017/3/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/ssatm/ontologies/2017/3/untitled-ontology-7#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="#HasName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weight_bench"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Trains"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weight_machinery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hex_Weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crossfitter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bodybuilder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_used"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Powerlifter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exercise_bike"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Run_treadmill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bench_press"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Timetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subscription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonalTrainer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aerobic_machinery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Machinery"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Works_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Pays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Customer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rubber_Barbell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dressing_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abs_Bench"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Female"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Uses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Training_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Class_fit"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Abs_Bench"/>
+        <Class IRI="#Aerobic_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aerobic_machinery"/>
+        <Class IRI="#Machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bench_press"/>
+        <Class IRI="#Weight_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bodybuilder"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Class_fit"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crossfitter"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Customer"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dressing_room"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employee"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exercise_bike"/>
+        <Class IRI="#Aerobic_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hex_Weight"/>
+        <Class IRI="#Weight_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PersonalTrainer"/>
+        <Class IRI="#Employee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Powerlifter"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reception"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rubber_Barbell"/>
+        <Class IRI="#Weight_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Run_treadmill"/>
+        <Class IRI="#Aerobic_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subscription"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timetable"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Training_room"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weight_bench"/>
+        <Class IRI="#Weight_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weight_machinery"/>
+        <Class IRI="#Machinery"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Abs_Bench"/>
+        <Class IRI="#Exercise_bike"/>
+        <Class IRI="#Run_treadmill"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aerobic_machinery"/>
+        <Class IRI="#Weight_machinery"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bench_press"/>
+        <Class IRI="#Hex_Weight"/>
+        <Class IRI="#Rubber_Barbell"/>
+        <Class IRI="#Weight_bench"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bodybuilder"/>
+        <Class IRI="#Crossfitter"/>
+        <Class IRI="#Customer"/>
+        <Class IRI="#Employee"/>
+        <Class IRI="#Name"/>
+        <Class IRI="#PersonalTrainer"/>
+        <Class IRI="#Powerlifter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Class_fit"/>
+        <Class IRI="#Dressing_room"/>
+        <Class IRI="#Reception"/>
+        <Class IRI="#Subscription"/>
+        <Class IRI="#Timetable"/>
+        <Class IRI="#Training_room"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Infrastructure"/>
+        <Class IRI="#Machinery"/>
+        <Class IRI="#Person"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_used"/>
+        <ObjectProperty IRI="#Uses"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Uses"/>
+        <ObjectProperty IRI="#is_used"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#HasName"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasName"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Pays"/>
+        <Class IRI="#Customer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Trains"/>
+        <Class IRI="#PersonalTrainer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Uses"/>
+        <Class IRI="#Customer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Works_in"/>
+        <Class IRI="#Employee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasName"/>
+        <Class IRI="#Name"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Pays"/>
+        <Class IRI="#Subscription"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Trains"/>
+        <Class IRI="#Customer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Uses"/>
+        <Class IRI="#Class_fit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Uses"/>
+        <Class IRI="#Dressing_room"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Uses"/>
+        <Class IRI="#Machinery"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Uses"/>
+        <Class IRI="#Reception"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Uses"/>
+        <Class IRI="#Training_room"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Works_in"/>
+        <Class IRI="#Infrastructure"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Cost"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Day"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Female"/>
+        <DataProperty IRI="#Gender"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Male"/>
+        <DataProperty IRI="#Gender"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Time"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Weight"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cost"/>
+        <Class IRI="#Subscription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Day"/>
+        <Class IRI="#Timetable"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Female"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Gender"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Male"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Time"/>
+        <Class IRI="#Timetable"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Weight"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Weight"/>
+        <Class IRI="#Weight_machinery"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cost"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Day"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Female"/>
+        <Datatype abbreviatedIRI="rdf:XMLLiteral"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Gender"/>
+        <Datatype abbreviatedIRI="rdf:XMLLiteral"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Male"/>
+        <Datatype abbreviatedIRI="rdf:XMLLiteral"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name"/>
+        <Datatype abbreviatedIRI="rdf:XMLLiteral"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Time"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Weight"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DisjointDataProperties>
+        <DataProperty IRI="#Cost"/>
+        <DataProperty IRI="#Day"/>
+        <DataProperty IRI="#Gender"/>
+        <DataProperty IRI="#Name"/>
+        <DataProperty IRI="#Time"/>
+        <DataProperty IRI="#Weight"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#Female"/>
+        <DataProperty IRI="#Male"/>
+    </DisjointDataProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
